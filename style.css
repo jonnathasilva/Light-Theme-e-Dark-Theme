@@ -1,0 +1,398 @@
+:root {
+  --var-color01: hsl(227, 47%, 96%);
+  --var-color02: hsl(225, 100%, 98%);
+  --var-color03: #fff;
+  --var-color04: hsl(230, 22%, 74%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.contener {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.fundo {
+  width: 100%;
+  height: 230px;
+  background-color: var(--var-color02);
+  position: absolute;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.box-total {
+  width: 88%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* ======================== header ==================== */
+
+header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.title {
+  width: 86%;
+}
+
+.title h1 {
+  font-size: x-large;
+  font-weight: 600;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.title p {
+  font-size: x-small;
+  font-weight: 600;
+  opacity: 0.6;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.mudar-cor {
+  width: 13%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mudar-cor p {
+  font-size: small;
+  font-weight: 600;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.barra-mudar {
+  width: 50px;
+  height: 25px;
+  background-color: #dcdcdc;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.bola-mudar {
+  width: 20px;
+  height: 20px;
+  background-color: var(--var-color02);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+/* ========================== main ==================== */
+
+main {
+  width: 100%;
+  height: 630px;
+}
+
+/* =========================== section-01 ==================== */
+
+.section-01 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.card {
+  width: 240px;
+  background: var(--var-color01);
+  position: relative;
+  border-radius: 0 0 5px 5px;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.cor-top {
+  position: relative;
+  top: 0;
+  height: 5px;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  background-color: hsl(208, 92%, 53%);
+  margin-bottom: 20px;
+}
+
+.instagram {
+  background-image: linear-gradient(
+    45deg,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+}
+
+.youtube {
+  background-color: hsl(348, 97%, 39%);
+}
+
+.rede-social {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rede-social p {
+  font-size: xx-small;
+  font-weight: 600;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: xxx-large;
+  margin-top: 15px;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.card h3 {
+  text-align: center;
+  font-weight: 200;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.bottom {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.bottom img {
+  display: inline-block;
+  height: 7px;
+}
+
+.bottom p {
+  display: inline-block;
+  font-size: xx-small;
+  font-weight: 600;
+  color: hsl(163, 72%, 41%);
+}
+
+/* =========================== section-02 ==================== */
+
+.section-02 {
+  width: 100%;
+  margin: auto;
+}
+
+.section-02 h2 {
+  margin-bottom: 15px;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.box-01 {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cards {
+  display: inline-block;
+  width: 240px;
+  background: var(--var-color01);
+  border-radius: 5px;
+  padding: 15px 0;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.conteudo-01 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.conteudo-01 p {
+  display: inline-block;
+  width: calc(100% - 32px);
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.conteudo-01 img {
+  display: inline-block;
+}
+
+.conteudo-02 {
+  width: 80%;
+  margin: auto;
+}
+
+.conteudo-02 h2 {
+  display: inline-block;
+  margin: 0;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.min {
+  width: calc(100% - 39px);
+}
+
+.medio {
+  width: calc(100% - 52px);
+}
+
+.Medio {
+  width: calc(100% - 57px);
+}
+
+.largo {
+  width: calc(100% - 59px);
+}
+
+.unico {
+  width: calc(100% - 43px);
+}
+
+.min-box {
+  display: inline-block;
+}
+
+.min-box img {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+}
+
+.min-box p {
+  display: inline-block;
+  font-size: xx-small;
+}
+
+.green {
+  color: hsl(163, 72%, 41%);
+}
+
+.red {
+  color: red;
+}
+
+.box-02 {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* ====================== Dark Theme ================= */
+
+body.ativo {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.fundo.ativo {
+  background-color: hsl(232, 19%, 15%);
+}
+
+header.ativo .title h1,
+.section-01.ativo h2,
+.section-02.ativo h2 {
+  color: var(--var-color03);
+}
+
+header.ativo .title p,
+header.ativo .mudar-cor p,
+.section-01.ativo .rede-social p,
+.section-01.ativo h3,
+.section-02.ativo .conteudo-01 p {
+  color: var(--var-color04);
+  opacity: 1;
+}
+
+.bola-mudar.ativo {
+  left: 27px;
+}
+
+.barra-mudar.ativo {
+  background-image: linear-gradient(
+    45deg,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+}
+
+.section-01.ativo .card,
+.section-02.ativo .cards {
+  background-color: hsl(228, 28%, 20%);
+}
+
+@media (max-width: 1100px) {
+  .section-01 {
+    display: inline-block;
+  }
+  .box-01,
+  .box-02 {
+    display: inline-block;
+    margin: 0;
+  }
+  .card {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .cards {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+  header {
+    display: block;
+  }
+  .title {
+    width: 100%;
+  }
+  .mudar-cor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid;
+    margin-top: 20px;
+    padding: 14px 0px;
+  }
+  header.ativo .mudar-cor {
+    border-top: 2px solid var(--var-color04);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards,
+  .card {
+    width: 100%;
+  }
+}
